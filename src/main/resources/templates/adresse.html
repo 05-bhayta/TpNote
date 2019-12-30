@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html xmlns :th="http://www.thymeleaf.org">
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+</style>
+<title>Adresses </title>
+<div th:insert="~{fragment :: my-fragment1}"></div>
+<meta http-equiv ="Content-Type" content ="text/html; charset=UTF-8" />
+</head>
+<body>
+<form method="post" action="/meteo">
+<label for="adresse">Entrez l'adresse : </label>
+<input type="text" name="adresse" id="adresse" required>
+<input type="submit" value="Valider">
+</form>
+</body>
+</html>

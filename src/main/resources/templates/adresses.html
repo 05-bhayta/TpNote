@@ -7,8 +7,12 @@
 <body>
 <div th:replace="fragments/navbar :: header"></div>
 <h1>Les differentes adresses </h1>
-<ul th: each ="address: ${allAddresses}">
-<li th: text ="${address.content}"/>
-</ul>
+<ul th:each ="address: ${allAdresses}">
+	<li th:text ="${address.content}" />
+	<li th:text ="${address.auteur}" />
+</ul >
 </body>
 </html>
+
+
+
