@@ -52,7 +52,7 @@ public class HelloWorldController {
 	   @PostMapping("/meteo")
 	    public String recuperer (Model model,@RequestBody String adresse ) {
 			SimpleClientHttpRequestFactory clientHttpReq = new SimpleClientHttpRequestFactory();
-			Proxy proxy = new Proxy(Proxy.Type.HTTP, new InetSocketAddress("proxy.univ-lemans.fr", 3128));
+			Proxy proxy = new Proxy(Proxy.Type.HTTP, new InetSocketAddress("proxy.univ-lemans.fr", 8080));
 			clientHttpReq.setProxy(proxy);
 			RestTemplate restTemplate = new RestTemplate(clientHttpReq);
 			Resultat c = restTemplate.getForObject("https://api-adresse.data.gouv.fr/search/?q="+adresse, Resultat.class);

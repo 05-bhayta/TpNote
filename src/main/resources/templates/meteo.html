@@ -13,10 +13,13 @@ li.menu {
 }
 </style>
 <title>Meteo </title>
-<div th:replace="fragments/navbar :: header"></div>
+
 <meta http-equiv ="Content-Type" content ="text/html; charset=UTF-8" />
 </head>
 <body>
+
+<div th:replace="fragments/navbar :: header"></div> 
+
 <ul th:each ="meteo: ${meteo}">
 	<li th:text ="${meteo.Now.summary}" />
 	<li th:text ="${meteo.Now.temperature}" />
