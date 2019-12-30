@@ -39,8 +39,11 @@ Etape 30
 	</dependency>
 
 
-   etape 16====> apres cree la class address ===> source   getter setters 
-   puis constructeur filds   select all and deselect all 
+  tp2/2  
+etape 6
+ona creer un compte darksky pour utiliser API  (url personnel )  ====> https://api.darksky.net/forecast/9015730e2ba0e4462a9c9487ba117ee1/37.8267,-122.4233
+
+
    
    
    
