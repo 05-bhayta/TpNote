@@ -1,3 +1,19 @@
+
+
+H2 Database : un système de gestion de base de données relationnelle chargé en mémoire
+
+Spring : Spring est un framwork J2EE MVC
+
+JPA : Java Persistance API est une interface de programmation permettent d'organiser les données relationnales avec des annotations
+
+Thymeleaf : Moteur de template
+
+Hibernate : Permet une connexion et une relation avec la bdd plus facilement
+
+DevTools : offre des outils en plus pour le developpemen
+
+
+
 Etape 13 :
    1. @GetMapping("/greeting")
    2.return "greeting";
@@ -48,6 +64,9 @@ etape 6
 ******temp  55.62
 ******* on le daily
 
+
+
+gihub  lien =====> https://github.com/05-bhayta/TpNote
 
 
    
