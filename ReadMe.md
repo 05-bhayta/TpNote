@@ -55,6 +55,7 @@ Etape 30
 	</dependency>
 
 
+<<<<<<< HEAD:ReadMe.md
 
 tp2/2  
 etape 6
@@ -69,6 +70,13 @@ etape 6
 gihub  lien =====> https://github.com/05-bhayta/TpNote
 
 
+=======
+  tp2/2  
+etape 6
+ona creer un compte darksky pour utiliser API  (url personnel )  ====> https://api.darksky.net/forecast/9015730e2ba0e4462a9c9487ba117ee1/37.8267,-122.4233
+
+
    
+>>>>>>> fead0310c6b51587e58c84ef15e6a5dd378850d7:ReadMe.txt
    
    
